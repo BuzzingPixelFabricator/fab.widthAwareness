@@ -301,4 +301,4 @@ function runWidthAwarenessController(F) {
     });
 }
 
-runWidthAwarenessController(window.FAB);
+runWidthAwarenessController(window[window.FABNAMESPACE]);
